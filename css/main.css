@@ -1,0 +1,70 @@
+@import url('reset.css');
+
+body{
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: 50px 200px;
+}
+#navbar{
+    overflow: hidden;
+}
+#navbar .logo{
+    float: left;
+}
+#navbar .logo a img{
+    width: 100px;
+}
+#navbar .nav-links ul{
+    font-size: .9rem;
+    float: right;
+    margin: 0;
+    margin-top: 50px;
+}
+#navbar .nav-links ul li{
+    display: inline-block;
+    padding: 8px;
+    padding-right: 30px;
+    margin-right: 30px;
+}
+#navbar .nav-links ul li a{
+    text-decoration: none;
+    color: black;
+}
+#navbar .nav-links ul li .sign-in{
+    font-size: 1rem;
+    color: white;
+    background: #fff432; /* Old browsers */
+    background: -moz-linear-gradient(left, #fff432 0%, #fc9d19 41%, #ef4317 86%, #ef4317 86%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #fff432 0%,#fc9d19 41%,#ef4317 86%,#ef4317 86%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #fff432 0%,#fc9d19 41%,#ef4317 86%,#ef4317 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff432', endColorstr='#ef4317',GradientType=1 ); /* IE6-9 */
+    padding: 15px 60px;
+    border-radius: 50px;
+}
+#navbar .nav-links ul li .sign-in:hover{
+    
+    -webkit-box-shadow: 14px 14px 17px -11px rgba(0,0,0,0.28);
+    -moz-box-shadow: 14px 14px 17px -11px rgba(0,0,0,0.28);
+    box-shadow: 14px 14px 17px -11px rgba(0,0,0,0.28);
+    
+}
+#content .top {
+    margin-top: 100px;
+}
+#content .top .left-column{
+    display: inline-block;
+}
+#content .top .left-column h2{
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 60px;
+}
+#content .top .left-column p{
+    margin-top: 25px;
+    line-height: 35px;
+}
+#content .top .right-column{
+    display: inline-block;
+}
